@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ariesh K — DevOps & Cloud Engineer based in Bangalore, India. Kubernetes-native pipelines, GitOps, and observability." />
+  <meta name="theme-color" content="#050805" />
+  <title>Ariesh K — DevOps &amp; Cloud Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" aria-label="Primary">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">
+        <span class="nav__prompt">$</span> ariesh-k
+      </a>
+      <nav class="nav__links" aria-label="Sections">
+        <a href="#about">about</a>
+        <a href="#stack">stack</a>
+        <a href="#projects">projects</a>
+        <a href="#certifications">certs</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <a class="nav__external" href="https://github.com/ARIESH-git" target="_blank" rel="noopener">
+        GitHub <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <div class="hero__meta">
+          <span class="status">
+            <span class="status__dot" aria-hidden="true"></span>
+            AVAILABLE
+          </span>
+          <span class="hero__location">BANGALORE, IN</span>
+        </div>
+
+        <h1 class="hero__name" data-typewriter>ARIESH K</h1>
+        <p class="hero__title">DevOps &amp; Cloud Engineer</p>
+
+        <p class="hero__tagline">
+          Kubernetes-native pipelines, GitOps, and observability &mdash;
+          <br class="hero__br" />
+          built to fail gracefully and recover fast.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View projects</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+
+        <!-- Stats dashboard -->
+        <div class="stats" role="list" aria-label="Portfolio highlights">
+          <div class="stat" role="listitem">
+            <div class="stat__label">MTTR</div>
+            <div class="stat__value">&lt;15<span class="stat__unit">s</span></div>
+            <div class="stat__sub">AI-diagnosed incident to Slack</div>
+          </div>
+          <div class="stat" role="listitem">
+            <div class="stat__label">CLOUDS</div>
+            <div class="stat__value">2</div>
+            <div class="stat__sub">AWS + Azure orchestrated</div>
+          </div>
+          <div class="stat" role="listitem">
+            <div class="stat__label">PODS</div>
+            <div class="stat__value">1<span class="stat__sep">→</span>8</div>
+            <div class="stat__sub">KEDA autoscale on Kafka lag</div>
+          </div>
+          <div class="stat" role="listitem">
+            <div class="stat__label">RESOURCES</div>
+            <div class="stat__value">34</div>
+            <div class="stat__sub">Terraform-managed AWS</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <h2 class="section__title"><span class="prompt">$</span> cat ./about.md</h2>
+      <div class="about">
+        <p>
+          Fresher based in Bangalore, building a production-grade DevOps portfolio from scratch &mdash;
+          from Terraform-provisioned infrastructure to GitOps-driven Kubernetes deployments
+          with AI-assisted incident response.
+        </p>
+        <p>
+          Focus areas: infrastructure automation, CI/CD security gates,
+          Kubernetes-native distributed systems, and multi-cloud resilience.
+          Currently learning Advanced Python and continuing to deepen work on
+          event-driven architectures.
+        </p>
+        <p class="about__seeking">
+          <span class="prompt">&gt;</span>
+          Seeking a <strong>DevOps</strong>, <strong>Cloud</strong>, or <strong>SRE</strong> role.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section" id="stack">
+      <h2 class="section__title"><span class="prompt">$</span> helm list --stack</h2>
+
+      <div class="stack">
+        <div class="stack__group">
+          <h3 class="stack__heading">cloud &amp; containers</h3>
+          <ul class="chips">
+            <li>AWS</li>
+            <li>Azure</li>
+            <li>GCP</li>
+            <li>Kubernetes</li>
+            <li>Helm</li>
+            <li>Docker</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__heading">IaC &amp; GitOps</h3>
+          <ul class="chips">
+            <li>Terraform</li>
+            <li>Ansible</li>
+            <li>ArgoCD</li>
+            <li>Argo Rollouts</li>
+            <li>GitHub Actions</li>
+            <li>Jenkins</li>
+            <li>KEDA</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__heading">observability &amp; security</h3>
+          <ul class="chips">
+            <li>Prometheus</li>
+            <li>Grafana</li>
+            <li>Loki</li>
+            <li>Alertmanager</li>
+            <li>Bandit</li>
+            <li>Trivy</li>
+            <li>GitHub OIDC</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__heading">data &amp; AI</h3>
+          <ul class="chips">
+            <li>Apache Kafka</li>
+            <li>Redis</li>
+            <li>DynamoDB</li>
+            <li>LangChain</li>
+            <li>Groq API</li>
+            <li>RAG</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__heading">languages</h3>
+          <ul class="chips">
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>Bash</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <h2 class="section__title"><span class="prompt">$</span> kubectl get projects</h2>
+
+      <div class="projects">
+
+        <!-- OrderFlow -->
+        <article class="project">
+          <header class="project__head">
+            <div class="project__meta">
+              <span class="status status--running">
+                <span class="status__dot" aria-hidden="true"></span>
+                RUNNING
+              </span>
+              <span class="project__date">JUN 2026</span>
+            </div>
+            <h3 class="project__title">OrderFlow</h3>
+            <p class="project__subtitle">Event-driven order processing platform</p>
+          </header>
+
+          <div class="project__body">
+            <p>
+              Order pipeline on Kafka (8 partitions, 2 consumer groups) with FastAPI producing to
+              independent inventory and notification consumers on Kubernetes.
+            </p>
+            <ul class="project__bullets">
+              <li><strong>KEDA</strong> autoscales consumers 1&nbsp;&rarr;&nbsp;8 pods on live Kafka lag</li>
+              <li><strong>Argo Rollouts</strong> canary deploys auto-abort on Prometheus error-rate spikes</li>
+              <li><strong>ArgoCD</strong> GitOps sync; <strong>Terraform</strong>-provisioned VPC/EKS/ECR</li>
+              <li><strong>Redis</strong> caching layer to speed up repeated lookups</li>
+              <li>CI: Bandit SAST &rarr; Docker &rarr; Trivy &rarr; keyless OIDC push to ECR</li>
+              <li>
+                <strong>LangChain</strong> AI ops agent (Groq) reads Alertmanager alerts, queries
+                Loki logs + past incidents, posts diagnosis to Slack in under 15&nbsp;seconds
+              </li>
+              <li>Prometheus, Loki/Promtail, Grafana dashboards</li>
+            </ul>
+          </div>
+
+          <footer class="project__foot">
+            <div class="project__chips">
+              <span>Kubernetes</span><span>Kafka</span><span>FastAPI</span><span>ArgoCD</span>
+              <span>KEDA</span><span>Terraform</span><span>Redis</span><span>LangChain</span>
+              <span>Prometheus</span><span>Loki</span>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/ARIESH-git/Orderflow-Project-Repo" target="_blank" rel="noopener">
+                Repo <span aria-hidden="true">↗</span>
+              </a>
+              <a href="https://youtu.be/W64OjGid2R8" target="_blank" rel="noopener">
+                Demo <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Multi-Cloud DR -->
+        <article class="project">
+          <header class="project__head">
+            <div class="project__meta">
+              <span class="status status--standby">
+                <span class="status__dot" aria-hidden="true"></span>
+                STANDBY
+              </span>
+              <span class="project__date">MAR 2026</span>
+            </div>
+            <h3 class="project__title">Multi-Cloud Disaster Recovery</h3>
+            <p class="project__subtitle">Cross-cloud failover system</p>
+          </header>
+
+          <div class="project__body">
+            <p>
+              AWS + Azure infrastructure provisioned entirely via Terraform,
+              with automated cross-cloud failover.
+            </p>
+            <ul class="project__bullets">
+              <li><strong>AWS + Azure</strong> infra via <strong>Terraform</strong>, with S3 + DynamoDB remote state locking</li>
+              <li>Automated failover via <strong>Route 53</strong> health checks and <strong>Azure Traffic Manager</strong></li>
+              <li>Least-privilege IAM with <strong>OIDC federation</strong> for CI/CD &mdash; no long-lived credentials</li>
+              <li><strong>GitHub Actions</strong> pipeline for deployment and drift validation</li>
+            </ul>
+          </div>
+
+          <footer class="project__foot">
+            <div class="project__chips">
+              <span>AWS</span><span>Azure</span><span>Terraform</span><span>Route 53</span>
+              <span>Azure Traffic Manager</span><span>GitHub Actions</span>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/ARIESH-git/Multi-Cloud-Disaster-Recovery-Project" target="_blank" rel="noopener">
+                Repo <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </footer>
+        </article>
+
+        <!-- Terraform AWS 101 -->
+        <article class="project">
+          <header class="project__head">
+            <div class="project__meta">
+              <span class="status status--deployed">
+                <span class="status__dot" aria-hidden="true"></span>
+                DEPLOYED
+              </span>
+              <span class="project__date">FOUNDATION</span>
+            </div>
+            <h3 class="project__title">Terraform-AWSinfra-101</h3>
+            <p class="project__subtitle">AWS CI/CD infrastructure automation</p>
+          </header>
+
+          <div class="project__body">
+            <p>
+              End-to-end AWS automation &mdash; from <code>terraform apply</code> to a
+              running containerized app behind an application load balancer.
+            </p>
+            <ul class="project__bullets">
+              <li><strong>34 AWS resources</strong> via a modular Terraform root, state in S3</li>
+              <li>Bastion-only SSH access &mdash; Jenkins and app hosts in private subnets</li>
+              <li><strong>Ansible</strong> installs Docker across both hosts from one playbook</li>
+              <li>Jenkins pipeline (served at <code>/jenkins</code> behind ALB): checkout &rarr; build &amp; push to ECR &rarr; SSH deploy</li>
+              <li><strong>IAM instance roles</strong> for keyless EC2 &rarr; ECR authentication</li>
+              <li>Full cost breakdown documented (~$88.32/month via AWS Pricing Calculator)</li>
+            </ul>
+          </div>
+
+          <footer class="project__foot">
+            <div class="project__chips">
+              <span>AWS</span><span>Terraform</span><span>Jenkins</span><span>Ansible</span>
+              <span>Docker</span><span>ECR</span><span>ALB</span>
+            </div>
+            <div class="project__links">
+              <a href="https://github.com/ARIESH-git/Terraform-AWSinfra-101" target="_blank" rel="noopener">
+                Repo <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ CERTS ============ -->
+    <section class="section" id="certifications">
+      <h2 class="section__title"><span class="prompt">$</span> cat ./certifications.md</h2>
+
+      <div class="cert">
+        <div class="cert__head">
+          <span class="cert__issuer">UpGrad</span>
+          <span class="cert__date">JUN 2026</span>
+        </div>
+        <h3 class="cert__title">Professional Certificate in Cloud Computing &amp; DevOps</h3>
+        <p class="cert__body">
+          Covered Terraform, Ansible, Jenkins, Docker, Kubernetes, SAST/SCA security practices,
+          CI/CD pipelines, and cloud architecture across AWS, Azure, and GCP.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--contact" id="contact">
+      <h2 class="section__title"><span class="prompt">$</span> contact --open</h2>
+
+      <ul class="contact">
+        <li>
+          <span class="contact__key">email</span>
+          <a href="mailto:ariesharun07@gmail.com">ariesharun07@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact__key">linkedin</span>
+          <a href="https://www.linkedin.com/in/ariesh-k-19b261394" target="_blank" rel="noopener">
+            /in/ariesh-k-19b261394 <span aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li>
+          <span class="contact__key">github</span>
+          <a href="https://github.com/ARIESH-git" target="_blank" rel="noopener">
+            /ARIESH-git <span aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li>
+          <span class="contact__key">instagram</span>
+          <a href="https://www.instagram.com/arun_ariesh" target="_blank" rel="noopener">
+            @arun_ariesh <span aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li>
+          <span class="contact__key">location</span>
+          <span>Bangalore, India</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      <span class="prompt">$</span> exit
+      <span class="footer__meta">&copy; <span id="year"></span> Ariesh K &mdash; Built with HTML, CSS &amp; a lot of <code>terraform apply</code></span>
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
